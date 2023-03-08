@@ -1,0 +1,10 @@
+def display_menu():
+    """Displays a simple menu"""
+    print("1: Log in")
+    print("2: Sign up")
+    print("9: Quit")
+
+a = input("enter who is using function")
+if a == 'coder':
+    display_menu()
+    
